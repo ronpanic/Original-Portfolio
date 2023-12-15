@@ -1,0 +1,29 @@
+footer {
+    text-align: center;
+}
+  
+footer h4 {
+    font-size: 15rem;
+    font-weight: 800;
+    white-space: nowrap;
+    color: #ffffff; 
+    -webkit-text-stroke: 3px #000000; 
+    margin: -3rem -6rem; 
+    padding: 10px; 
+}
+  
+
+footer a {
+    color: #000;
+}
+
+footer a ion-icon {
+    font-size: 30px;
+    margin-top: -5rem;
+}
+
+.icon-footer {
+    display: flex; 
+    gap: 5rem;
+    justify-content: center; 
+}

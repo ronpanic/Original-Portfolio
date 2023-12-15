@@ -1,0 +1,25 @@
+.wp-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    display: block;
+}
+
+.wp-container button {
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: #46e763;
+    color: #fff;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Estilo cuando el botón está en hover */
+.wp-container button:hover {
+    background-color: #1eaa37;
+}
