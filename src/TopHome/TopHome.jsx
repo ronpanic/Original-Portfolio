@@ -6,7 +6,7 @@ const HeaderHome = () => {
 
   return (
     <div className="top-container">
-        <img src="https://cdn.discordapp.com/attachments/791413136111697935/1168681425193680896/bmw-5-series-e34_1569187953.jpg.jpg?ex=6552a664&is=65403164&hm=ec043ed69cf94b3b6db21a6d1536ebd97ee61e0688173365e1647ed7bba2adfa&" alt="" />
+        <img src="/public/bmw e34.webp" alt="Descripción de la imagen" />
             <h3>© Code by Martin</h3>
             <div className='job-container'>
                 <h2>Freelance</h2>

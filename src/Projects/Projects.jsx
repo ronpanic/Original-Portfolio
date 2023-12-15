@@ -62,7 +62,7 @@ const Projects = () => {
         <div className="allprojects">
           <div className="project1">
             <ion-icon name="barbell"></ion-icon>
-            <img src="https://ronpanic.github.io/Bfcoaching/images/cbuminfo.jpg" alt="bfcoaching" />
+            <img src="/public/buff.webp" alt="bfcoaching" />
 
             <div className='project-info'>
               <p className="date">Oct 8, 2023</p>
@@ -86,13 +86,13 @@ const Projects = () => {
               <Link to='/thevoid'><button>See more</button></Link>
             </div>
             <ion-icon name="shirt"></ion-icon>
-            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1180592661124632646/image.png?ex=657dfb98&is=656b8698&hm=2e1238602ddfc1a5d1e87d5c6b653dd606beaef7deff068a1fe39f053d29012d&" alt="bfcoaching" />
+            <img src="/public/thevoid.webp" alt="bfcoaching" />
           </div>
 
           <div className="project3">
 
             <ion-icon name="logo-whatsapp"></ion-icon>
-            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1180630754246529254/image.png?ex=657e1f12&is=656baa12&hm=031509d09e2deefa109f413dc4c676cd7c50024f8b9040cd3da313c0807c9f65&" alt="bfcoaching" />
+            <img src="/public/portfoliowp.webp" alt="bfcoaching" />
             <div className='project-info'>
               <p className="date">Aug 21, 2023</p>
               <h1>CREATIVE PORFOLIO</h1>
@@ -118,7 +118,7 @@ const Projects = () => {
 
 
             <ion-icon name="tv"></ion-icon>
-            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1180627306746757133/image.png?ex=657e1bdc&is=656ba6dc&hm=3a80db5c194b2c20e4a7751c86b6a15681fac8a9607ee90527b6dc8d899aeaf2&" alt="bfcoaching" />
+            <img src="/public/popflix.webp" alt="bfcoaching" />
 
           </div>
 
