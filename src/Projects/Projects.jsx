@@ -62,7 +62,7 @@ const Projects = () => {
         <div className="allprojects">
           <div className="project1">
             <ion-icon name="barbell"></ion-icon>
-            <img src="/public/buff.webp" alt="bfcoaching" />
+            <img src="/public/images/buff.webp" alt="bfcoaching" />
 
             <div className='project-info'>
               <p className="date">Oct 8, 2023</p>
@@ -86,13 +86,13 @@ const Projects = () => {
               <Link to='/thevoid'><button>See more</button></Link>
             </div>
             <ion-icon name="shirt"></ion-icon>
-            <img src="/public/thevoid.webp" alt="bfcoaching" />
+            <img src="/public/images/thevoid.webp" alt="bfcoaching" />
           </div>
 
           <div className="project3">
 
             <ion-icon name="logo-whatsapp"></ion-icon>
-            <img src="/public/portfoliowp.webp" alt="bfcoaching" />
+            <img src="/public/images/portfoliowp.webp" alt="bfcoaching" />
             <div className='project-info'>
               <p className="date">Aug 21, 2023</p>
               <h1>CREATIVE PORFOLIO</h1>
@@ -118,7 +118,7 @@ const Projects = () => {
 
 
             <ion-icon name="tv"></ion-icon>
-            <img src="/public/popflix.webp" alt="bfcoaching" />
+            <img src="/public/images/popflix.webp" alt="bfcoaching" />
 
           </div>
 

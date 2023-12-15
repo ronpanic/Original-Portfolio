@@ -6,7 +6,7 @@ const HeaderHome = () => {
 
   return (
     <div className="top-container">
-        <img src="/public/bmw e34.webp" alt="bmw e34 tophme" />
+        <img src="/public/images/bmw e34.webp" alt="bmw e34 tophome" />
             <h3>© Code by Martin</h3>
             <div className='job-container'>
                 <h2>Freelance</h2>
