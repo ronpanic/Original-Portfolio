@@ -1,4 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import voidPalette from "/public/images/thevoid-palette.png";
+import circle85 from "/public/images/circle_85.png";
+import circle50 from "/public/images/circle_50.png";
+import circle100 from "/public/images/circle_100.png";
+import circle75 from "/public/images/circle_75.png";
+import voidImage from "../../../public/images/thevoid-footer.png"
 import "./TheVoidPart4.css";
 
 
@@ -86,7 +92,7 @@ const TheVoidPart4 = () => {
                             <div className='paleta5'><h6>#ffffff</h6></div>
                         </div>
                         <div>
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1168250397631185036/image.png?ex=657f3977&is=656cc477&hm=a911d6a83ecfed494271872c4f8996054d672ae128469e132d96871be52fc088&" alt="" />
+                            <img src={voidPalette} alt="" />
                         </div>
                     </div>
                     <div className='pallette-explication'>
@@ -120,12 +126,12 @@ const TheVoidPart4 = () => {
                 <div className="row-container">
                     <div className='circleimg-container'>
                         <div>
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1181709157443838064/circle_85.png?ex=65820b6a&is=656f966a&hm=fed4d2e3bd5b261b3da7558d9ac2b96457073f334cab205165c64de0d0ba8896&" alt="" />
+                            <img src={circle85} alt="" />
                             <h5>Striking Color Palette</h5>
                             <p>Achieve 85% impact with a color palette that captivates, conveying the essence and distinctive style of TheVoid.</p>
                         </div>
                         <div>
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1181709156734996535/circle_100.png?ex=65820b6a&is=656f966a&hm=de6977fd37033f8e3df0debb144fd7e4435bac317fd6e0619102f92a97ace5aa&" alt="" />
+                            <img src={circle100} alt="" />
                             <h5>Immersive Visual Experience</h5>
                             <p>Attain 100% in creating an immersive visual experience, where each design element contributes to the unique narrative of your brand.</p>
                         </div>
@@ -134,12 +140,12 @@ const TheVoidPart4 = () => {
                 <div className="row-container">
                     <div className='circleimg-container'>
                         <div>
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1181709510075764796/circle_50.png?ex=65820bbe&is=656f96be&hm=ee9168172812923eb265f09b4de1501eac8c6f7807251fb8e786cec80bfba382&" alt="" />
+                            <img src={circle50} alt="" />
                             <h5>Elegance and Modernity</h5>
                             <p>Fuse 50% elegance and modernity into your design, harmonizing classic and contemporary elements on every page.</p>
                         </div>
                         <div>
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1181709157120868382/circle_75.png?ex=65820b6a&is=656f966a&hm=6b17ae4f544ae7d34259af542870b8ed84649356a0cc5e8f72a4caada4be11f6&" alt="" />
+                            <img src={circle75} alt="" />
                             <h5>Striking Minimalism</h5>
                             <p>Reach 75% visual minimalism, crafting a clean and sophisticated experience that accentuates the timeless essence of your brand.</p>
                         </div>
@@ -153,7 +159,7 @@ const TheVoidPart4 = () => {
                     <div className='slider-container' onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
                         <div className='cardsproyect-container'>
                             <div className='card'>
-                                <img src="https://cdn.discordapp.com/attachments/791413136111697935/1182156569161515018/image.png?ex=6583ac19&is=65713719&hm=cda39ca38a591dadf7b877669b730ca2fe23322f93cf48f2b3c50e4dd60e4471&" alt="" />
+                                <img src={voidImage} alt="" />
                                 <div className='cardinfo-container'>
                                     <h5>THE VOID</h5>
                                     <p>Ecommerce simulator made with Javascript - React + Vite. Emailjs, product filtering and shopping cart integrated</p>
@@ -164,7 +170,7 @@ const TheVoidPart4 = () => {
                                 </div>
                             </div>
                             <div className='card'>
-                                <img src="https://cdn.discordapp.com/attachments/791413136111697935/1182156569161515018/image.png?ex=6583ac19&is=65713719&hm=cda39ca38a591dadf7b877669b730ca2fe23322f93cf48f2b3c50e4dd60e4471&" alt="" />
+                                <img src={voidImage} alt="" />
                                 <div className='cardinfo-container'>
                                     <h5>THE VOID</h5>
                                     <p>Ecommerce simulator made with Javascript - React + Vite. Emailjs, product filtering and shopping cart integrated</p>
@@ -175,7 +181,7 @@ const TheVoidPart4 = () => {
                                 </div>
                             </div>
                             <div className='card'>
-                                <img src="https://cdn.discordapp.com/attachments/791413136111697935/1182156569161515018/image.png?ex=6583ac19&is=65713719&hm=cda39ca38a591dadf7b877669b730ca2fe23322f93cf48f2b3c50e4dd60e4471&" alt="" />
+                                <img src={voidImage} alt="" />
                                 <div className='cardinfo-container'>
                                     <h5>THE VOID</h5>
                                     <p>Ecommerce simulator made with Javascript - React + Vite. Emailjs, product filtering and shopping cart integrated</p>
@@ -186,7 +192,7 @@ const TheVoidPart4 = () => {
                                 </div>
                             </div>
                             <div className='card'>
-                                <img src="https://cdn.discordapp.com/attachments/791413136111697935/1182156569161515018/image.png?ex=6583ac19&is=65713719&hm=cda39ca38a591dadf7b877669b730ca2fe23322f93cf48f2b3c50e4dd60e4471&" alt="" />
+                                <img src={voidImage} alt="" />
                                 <div className='cardinfo-container'>
                                     <h5>THE VOID</h5>
                                     <p className='info-card'>Ecommerce simulator made with Javascript - React + Vite. Emailjs, product filtering and shopping cart integrated</p>
@@ -197,7 +203,7 @@ const TheVoidPart4 = () => {
                                 </div>
                             </div>
                             <div className='card'>
-                                <img src="https://cdn.discordapp.com/attachments/791413136111697935/1182156569161515018/image.png?ex=6583ac19&is=65713719&hm=cda39ca38a591dadf7b877669b730ca2fe23322f93cf48f2b3c50e4dd60e4471&" alt="" />
+                                <img src={voidImage} alt="" />
                                 <div className='cardinfo-container'>
                                     <h5>THE VOID</h5>
                                     <p>Ecommerce simulator made with Javascript - React + Vite. Emailjs, product filtering and shopping cart integrated</p>

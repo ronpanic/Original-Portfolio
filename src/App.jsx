@@ -6,7 +6,9 @@ import InfoMid from './InfoMid/InfoMid'
 import Footer from './Footer/Footer'
 import { Link, BrowserRouter, Route, Routes } from 'react-router-dom'
 import TheVoid from './TheVoid/TheVoid'
+import Quantum from './Quantum/Quantum'
 import WppButton from './WppButton/WppButton'
+
 
 
 
@@ -35,6 +37,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path='/thevoid' element={<TheVoid/>}> </Route>
+            <Route path='/quantum' element={<Quantum/>}> </Route>
           </Routes>
       </BrowserRouter>
     

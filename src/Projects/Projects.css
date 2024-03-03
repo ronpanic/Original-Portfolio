@@ -199,9 +199,12 @@ section h4 {
 }
 
 .project4 img {
-    width: 30%;
+    position: absolute;
+    width: 55%;
     border-radius: 10px;
     z-index: 999;
+    margin-left: -10rem;
+    margin-top: 2rem;
 }
 
 .project4 .date {

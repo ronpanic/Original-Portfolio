@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
+import buffImage from "/public/images/buff.webp";
+import theVoidImage from "/public/images/thevoid.webp";
+import portfolioWPImage from "/public/images/portfoliowp.webp";
+import quantumImage from "/public/images/Quantum.png";
 
 const Projects = () => {
   const [backgroundColor, setBackgroundColor] = useState('#f8f8f8');
@@ -9,10 +13,8 @@ const Projects = () => {
     window.scrollTo(0, 0);
   }, []);
 
-
   useEffect(() => {
     const handleScroll = () => {
-
       const projectElements = document.querySelectorAll('.project1, .project2, .project3, .project4');
       let isInView = false;
 
@@ -21,7 +23,6 @@ const Projects = () => {
         const buffer = window.innerHeight * 0.35;
 
         if (rect.top >= -buffer && rect.bottom <= window.innerHeight + buffer) {
-
           isInView = true;
           switch (project.className) {
             case 'project1':
@@ -62,14 +63,13 @@ const Projects = () => {
         <div className="allprojects">
           <div className="project1">
             <ion-icon name="barbell"></ion-icon>
-            <img src="/public/images/buff.webp" alt="bfcoaching" />
+            <img src={buffImage} alt="bfcoaching" />
 
             <div className='project-info'>
               <p className="date">Oct 8, 2023</p>
               <h1>BF COACHING</h1>
               <p className="info">
-                Experience the best of both worlds with our Powerbuilding plan. Gain strength in basic exercises and
-                stimulate muscle hypertrophy to achieve your goals.
+                Experience the best of both worlds with our Powerbuilding plan. Gain strength in basic exercises and stimulate muscle hypertrophy to achieve your goals.
               </p>
               <a target='blank_' href="https://ronpanic.github.io/Bfcoaching/"><button>See more</button></a>
             </div>
@@ -86,13 +86,13 @@ const Projects = () => {
               <Link to='/thevoid'><button>See more</button></Link>
             </div>
             <ion-icon name="shirt"></ion-icon>
-            <img src="/public/images/thevoid.webp" alt="bfcoaching" />
+            <img src={theVoidImage} alt="bfcoaching" />
           </div>
 
           <div className="project3">
 
             <ion-icon name="logo-whatsapp"></ion-icon>
-            <img src="/public/images/portfoliowp.webp" alt="bfcoaching" />
+            <img src={portfolioWPImage} alt="bfcoaching" />
             <div className='project-info'>
               <p className="date">Aug 21, 2023</p>
               <h1>CREATIVE PORFOLIO</h1>
@@ -108,24 +108,21 @@ const Projects = () => {
 
             <div className='project-info'>
               <p className="date">May 13, 2023</p>
-              <h1>POPFLIX</h1>
+              <h1>QUANTUM</h1>
               <p className="info">
                 This is one of my first projects that I did based a little on Netflix and with some of my touches, it was a page to practice made with html, scss and javascript, but it is not well optimized since, as I said, it was for practice
               </p>
-              <a target='blank_' href="https://ronpanic.github.io/Popflixx/"><button>See more</button></a>
+              <Link to='/quantum'><button>See more</button></Link>
 
             </div>
 
 
             <ion-icon name="tv"></ion-icon>
-            <img src="/public/images/popflix.webp" alt="bfcoaching" />
+            <a href="https://quantum-kappa-eight.vercel.app/"><img src={quantumImage} alt="moviepage" /></a>
 
           </div>
 
         </div>
-
-
-
 
         <h4>2023 - 2024</h4>
       </section>

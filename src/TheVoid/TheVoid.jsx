@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom'
 import TheVoidProgress from './TheVoidProgress/TheVoidProgress'
 import FooterProyect from './FooterProyect/FooterProyect'
 import WppButton from '../WppButton/WppButton'
+import thevoidpr from "../images/thevoid_products.png";
+import thevoidpr1 from "../images/thevoid_product1.png";
+import thevoidcart from "../images/thevoid_cart.png";
+import voidImage from "../../public/images/thevoid.png"
+
 
 const TheVoid = () => {
   return (
@@ -30,7 +35,7 @@ const TheVoid = () => {
         </div>
 
         <div className='img-top'>
-                <a target='blank_' href="https://thevoid-omega.vercel.app/"><img src="https://cdn.discordapp.com/attachments/791413136111697935/1180737735397494825/image.png?ex=657e82b5&is=656c0db5&hm=69ac104c71c5580338c1bf6e310e1a6951c99ce4f1746156c2dde683e2d2d01b&" alt="" /></a>
+            <a target='_blank' href="https://thevoid-omega.vercel.app/"><img src={voidImage} alt="" /></a>
         </div>
 
         <section className='counter-container'>
@@ -98,11 +103,11 @@ const TheVoid = () => {
                     </div>
 
                     <div className='sample-container'>
-                        <img src="https://cdn.discordapp.com/attachments/791413136111697935/1180767164286910484/image.png?ex=657e9e1d&is=656c291d&hm=14030669ebfa600d21426268ca136933e22319f38db883dfb460c30b1917b476&" alt="" />
+                        <img src={thevoidpr} alt="" />
 
                         <div className='sampleflex-container'>
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1168250710203314277/image.png?ex=6575ff42&is=65638a42&hm=6b1164e7c5d87f9e21c8cd54ae85dd2bfe973b8e6e7bd5d24002933dceb65e76&" alt="" />
-                            <img src="https://cdn.discordapp.com/attachments/791413136111697935/1168250791652499486/image.png?ex=6575ff55&is=65638a55&hm=b9051b7c36af84a89081ceff978e448098c2d87254b630bf55e66bee2ce4db16&" alt="" />
+                            <img src={thevoidpr1} alt="" />
+                            <img src={thevoidcart} alt="" />
                         </div>
                     </div>
 
