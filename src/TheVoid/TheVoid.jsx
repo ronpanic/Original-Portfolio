@@ -48,14 +48,14 @@ const TheVoid = () => {
             <div className='vertical-line'></div>
 
             <div className='products-counter'>
-                <p>1600</p>
+                <p>0</p>
                 <h6>Clients/Days</h6>
             </div>
 
             <div className='vertical-line'></div>
 
             <div className='products-counter'>
-                <p>72</p>
+                <p>0</p>
                 <h6>Purchased</h6>
             </div>
 

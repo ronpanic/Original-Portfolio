@@ -167,7 +167,7 @@
 
 .sampleflex-container {
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 .sampleflex-container img {

@@ -1,0 +1,117 @@
+.bg-top-quantum {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #bd8552;
+    margin: 0;
+    overflow: hidden; 
+}
+
+.bg-top-quantum h1,
+.bg-top-quantum h4 {
+    margin: 0;
+    margin-left: 6rem; 
+}
+
+.bg-top-quantum .ion-icon1 ion-icon {
+    position: absolute;
+    bottom: 0;
+    right: -30%;
+    transform: translateX(-50%) rotate(140deg);
+    color: rgba(255, 166, 0, 0.1);
+    font-size: 60rem;
+    z-index: 0; 
+}
+
+.bg-top-quantum .ion-icon2 ion-icon {
+    position: absolute;
+    bottom: -50%;
+    right: 50%;
+    transform: translateX(-50%) rotate(-40deg);
+    color: rgba(255, 166, 0, 0.1);
+    font-size: 60rem;
+    z-index: 0; 
+}
+
+.img-top-quantum {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translate(0%, -52%); 
+}
+
+.img-top-quantum img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 8rem;
+    z-index: 1; 
+    cursor: pointer;
+}
+
+.products-counter-quantum p {
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 0;
+    color: #bd8552;
+}
+
+.products-counter-quantum h6 {
+    font-size: 1rem;
+    margin: 0;
+    color: #bd8552;
+}
+
+.vertical-line-quantum {
+    margin: 0 9.7rem;
+    height: 8rem;
+    border: 1px solid rgba(71, 71, 71, 0.2);
+}
+
+.header-thevoid .start-header-quantum h2 {
+    color: #bd8552;
+    font-size: 38px;
+    margin: 0;
+}
+
+.header-thevoid .start-header-quantum h6 {
+    font-size: 1rem;
+    margin: 0 0 2rem;
+    color: #a7896d;
+}
+
+.header-thevoid .start-header-quantum h3 {
+    color: #bd8552;
+}
+
+.horizontal-line-quantum {
+    border: 1px solid rgba(71, 71, 71, 0.2);
+}
+
+.start-header-quantum p {
+    color: #757575;
+    font-size: 20px;
+}
+
+.part2-header-quantum {
+    background-color: #363636;
+    width: 100%;
+}
+
+.lang-container-quantum {
+    display: flex;
+    align-items: center;
+}
+
+.lang-container-quantum h2 {
+    margin: 0; 
+    padding-right: 2rem;
+    color: #fff;
+}
+
+.lang-container-quantum svg {
+    width: 3rem;
+    margin-right: 2rem;
+}
