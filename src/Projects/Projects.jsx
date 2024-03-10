@@ -14,7 +14,7 @@ const Projects = () => {
   }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = () => {  
       const projectElements = document.querySelectorAll('.project1, .project2, .project3, .project4');
       let isInView = false;
 
@@ -68,7 +68,7 @@ const Projects = () => {
             <div className='project-info'>
               <p className="date">Oct 8, 2023</p>
               <h1>BF COACHING</h1>
-              <p className="info">
+              <p className="info">  
                 Experience the best of both worlds with our Powerbuilding plan. Gain strength in basic exercises and stimulate muscle hypertrophy to achieve your goals.
               </p>
               <a target='blank_' href="https://ronpanic.github.io/Bfcoaching/"><button>See more</button></a>
@@ -86,7 +86,7 @@ const Projects = () => {
               <Link to='/thevoid'><button>See more</button></Link>
             </div>
             <ion-icon name="shirt"></ion-icon>
-            <img src={theVoidImage} alt="bfcoaching" />
+            <img src={theVoidImage} alt="clothpage" />
           </div>
 
           <div className="project3">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import "./Quantum.css"
 import quantumImage from "../../public/images/Quantum.png"
@@ -7,6 +7,12 @@ import quantumMovie from "../../public/images/Quantum-log.png"
 import WppButton from '../WppButton/WppButton'
 
 const Quantum = () => {
+
+  useEffect(() => {
+    // Cuando el componente se monta, desplázate al inicio de la página
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
 

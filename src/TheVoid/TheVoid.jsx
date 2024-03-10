@@ -76,7 +76,7 @@ const TheVoid = () => {
                 <h6>Jun 8, 2023</h6>
 
                 <div className='horizontal-line'></div>
-
+    
                 <p>This project was conceived with the objective of developing a fully functional E-commerce. By 'functional', we mean the comprehensive ability of the system to offer users a complete and satisfactory shopping experience.</p>
             
                 <h3>What functions does it have integrated?</h3>
